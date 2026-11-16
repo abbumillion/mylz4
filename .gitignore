@@ -4,3 +4,15 @@ bench/results/*.lz4
 *.o
 *.a
 compile_commands.json
+
+# Ignore compiled test binaries
+tests/bench_real_lz4
+tests/check_compat
+tests/gen_raw_block
+tests/hello
+tests/roundtrip
+
+# Ignore test corpus outputs
+tests/corpus/*.lz4
+tests/corpus/*.out
+tests/corpus/*.txt
