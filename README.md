@@ -1,7 +1,5 @@
 ![mylz4 GUI](screenshot.png)
 
-![mylz4 GUI](screenshot.png)
-
 # mylz4
 
 A byte-compatible LZ4 compressor and decompressor written from scratch in C, featuring an AVX2 SIMD-accelerated decoder.
