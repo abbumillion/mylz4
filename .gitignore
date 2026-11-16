@@ -1,0 +1,6 @@
+build/
+bench/results/*.out
+bench/results/*.lz4
+*.o
+*.a
+compile_commands.json
